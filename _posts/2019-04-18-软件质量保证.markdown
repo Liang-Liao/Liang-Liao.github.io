@@ -1,0 +1,114 @@
+---
+layout:     post
+title:      "软件质量保证"
+subtitle:   ""
+date:       2019-04-18
+author:     "廖亮"
+header-img: "img/post-bg-software.jpg"
+tags:
+    - 软件工程
+    - 软件质量
+---
+
+阅读来源《软件工程——实践者的研究方法》
+
+## 目录
+
+## 意义
+
+* 减少成本 reduce the amount of rework
+* 提前上市时间 improved time to market
+
+## 历史
+
+1. The first formal quality assurance and control function was introduced at Bell Labs in 1916.
+
+   首个软件质量保证起始于贝尔实验室，在1916年。
+
+## 要素
+
+* 标准 standards
+* 评审和审核 reviews and audits
+* 测试 testing
+* 错误/缺陷的收集和分析 error/defect collection and analysis
+* 变更管理 change management
+* 教育 education
+* 供应商管理 vendor management
+* 安全管理 security management：数据安全
+* 安全 safety
+* 风险管理 risk management
+
+## 过程和产品特点
+
+* 常用的标准：CMMI和ISO 9000标准。一般**协调使用**两个模型，即从这两个模型中选取所需要素进行组合，而不是完全采用一种模型。
+
+### tasks 任务
+
+* SQA plan: 计划
+* software process description: 软件过程描述
+* reviews software engineering activities 评审软件活动
+* audits designated software work products 审核软件产品
+* documented 文档化，并根据文档来执行
+* records noncompliance 记录不符合项并向上层报告
+
+## 质量属性
+
+### 需求质量属性
+
+* 歧义 ambiguity
+* 完备性 completeness
+* 可理解性 understandability
+* 易变性 volatility
+* 可追溯性 traceability
+* 模型清晰性 model clarity
+
+### 设计质量属性
+
+* 体系结构完整性 architectural integrity
+* 组件完整性 component completeness
+* 接口完整性 interface complexity
+* 模式 patterns
+
+### 编码质量属性
+
+* 复杂度 complexity
+* 可维护性 maintainability
+* 可理解性 understandability
+* 文档 document
+
+### 质量控制效率
+
+* 资源分配 resource allocation
+* 完成率 completion rate
+* 评审效率 review effectiveness
+* 测试效率 testing effectiveness
+
+## SQA形式化方法
+
+* 质量可以被定义成一组质量的属性
+* 更形式化的方法：一段计算机程序相当于一个数学对象等。
+
+## SQA统计
+
+步骤：
+
+1. 收集错误和缺陷并分类
+2. 寻找原因
+3. 使用Pareto原则分离其中的20%错误和缺陷。
+_pareto原则：80%的缺陷可以追溯源于20%的缺陷。_
+4. 纠正分离出的错误和缺陷。
+
+重要：**将时间用于真正重要的地方，但首先你要知道什么是真正重要的**。
+attention: **Spend your time focusing on things that really matter, but first be sure that you understand what really matters.**
+
+## 六标准差 six sigma
+
+* six sigma strategy: a rigorous and disciplined methdology that uses data and statisical analysis to measure and improve a company's operational performance by identifying and eliminating defects in manufacturing and service-related processes.
+严格且规范的方法学，它运用数据和统计分析，通过识别和消除制造以及服务相关过程中的‘缺陷’来测量和改进企业的运转状况。
+* 改进过程用 **DMAIC**: Define, Measure, Analyze, Improve, Control
+* 建立新过程用 **DMADV**: Define, Measure, Analyze, Design, Verify
+
+## 可靠性
+
+* 定义（从统计学来看）：在特定环境和特定时间内，计算机程序正常运行的概率。
+Definition: the probability of failure-free operation of a computer program in a specified environment for a specified time.
