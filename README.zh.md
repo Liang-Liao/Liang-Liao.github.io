@@ -1,6 +1,5 @@
 # Hux blog 模板
 
-
 我的博客仓库——`huxpro.github.io`，是经常修改的，而且还会有人乱提交代码，因此给大家做了一个稳定版的模板。大家可以直接fork模板——`huxblog-boilerplate`,要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
 
 ## 支持
@@ -72,7 +71,6 @@ header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
 ---
-
 ```
 
 #### SideBar
@@ -107,9 +105,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 ```
 
 唯一需要注意的是`featured-condition-size`: A tag will be featured if the size of it is more than this condition value. （也不知道Hux是想表达什么意思，请作者解答）
- 
-内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
-
 
 #### Friends
 
@@ -211,6 +206,6 @@ There are a number of tasks it performs like minification of the JavaScript, com
 ## 致谢
 
 1. 这个模板是从这里[IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)  forked 的。 感谢这个作者
-2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译 
+2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译
 
 3. 感谢 Jekyll、Github Pages 和 Bootstrap!
