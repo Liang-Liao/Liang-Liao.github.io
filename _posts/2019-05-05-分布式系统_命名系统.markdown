@@ -10,13 +10,13 @@ mathjax: true
 * content
 {:toc}
 
-> 名称用来共享资源、唯一标识实体、指向位置等
-> 命名的一个重要作用：把名称解析为它所指向的实体
-> 分布式与非分布式系统的命名的区别在于命名系统实现的方式
-> 分布式系统中使用名称的三种不同的重要方法
-> 用户友好的名称的组织和实现
-> 名称与实体位置无关
-> 用不同的字符来描述实体
+> * 名称用来共享资源、唯一标识实体、指向位置等
+> * 命名的一个重要作用：把名称解析为它所指向的实体
+> * 分布式与非分布式系统的命名的区别在于命名系统实现的方式
+> * 分布式系统中使用名称的三种不同的重要方法
+> * 用户友好的名称的组织和实现
+> * 名称与实体位置无关
+> * 用不同的字符来描述实体
 
 
 ## 名称、标识符和地址
@@ -84,9 +84,9 @@ Chord系统，指状表
 
 一般方法：基于Globe定位服务
 
-> 网络划分为一组域
-> 最底层为子域
-> 最顶层的目录结点为根结点
+> * 网络划分为一组域
+> * 最底层为子域
+> * 最顶层的目录结点为根结点
 
 操作：
 
@@ -163,15 +163,15 @@ URL表示法有两种实现方法：
 分层组织
 不同的资源记录：
 
-> SOA（start of authority）
-> A（address）
-> MX（mail exchange）
-> SRV
-> NS（name server）
-> CNAME（canonical name）
-> PTR（pointer）
-> HINFO（host info）
-> TXT（text）
+> * SOA（start of authority）
+> * A（address）
+> * MX（mail exchange）
+> * SRV
+> * NS（name server）
+> * CNAME（canonical name）
+> * PTR（pointer）
+> * HINFO（host info）
+> * TXT（text）
 
 #### DNS的实现
 

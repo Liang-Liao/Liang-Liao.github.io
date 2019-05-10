@@ -262,7 +262,7 @@ mathjax: true
 
 ```yml
 # excerpt
-excerpt_separator: "\n\n\n\n"
+excerpt_separator: "\n\n"
 ```
 
 使用 markdown 语法写文章。

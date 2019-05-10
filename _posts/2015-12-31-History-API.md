@@ -21,8 +21,6 @@ tags: JavaScript Ajax URL HistoryApi pushState pjax
 但最近写了一个项目类似知乎这样的多页网站。前端 url 的处理让我觉得不够优雅。我使用的是 hash 的方式处理动态 url 的，为此我专门在知乎上提了一个问题：[前端如何处理动态url？](https://www.zhihu.com/question/38802932)
 
 
-
-
 这里我将问题描述如下：
 
 > 前后端彻底分离的情况下，页面跳转页全部由前端控制。那么如何更好的处理动态url地址？
