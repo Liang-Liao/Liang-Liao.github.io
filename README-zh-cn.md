@@ -256,13 +256,13 @@ mathjax: true
 {:toc}
 ```
 
-文章中存在的4次换行为摘要分割符，换行前的内容会以摘要的形式显示在主页Home上，进入文章页不影响。
+文章中存在的三个间断横杆为摘要分割符，换行前的内容会以摘要的形式显示在主页Home上，进入文章页不影响。
 
 换行符的设置见配置文件`_config.yml`的 excerpt，如下：
 
 ```yml
 # excerpt
-excerpt_separator: "\n\n"
+excerpt_separator: "--- --- ---"
 ```
 
 使用 markdown 语法写文章。
