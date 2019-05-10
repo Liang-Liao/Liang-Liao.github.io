@@ -4,6 +4,7 @@ title:  "分布式系统——命名系统"
 date:   2019-05-05
 categories: 分布式系统
 tags: 分布式系统 命名系统
+author: Liao Liang
 mathjax: true
 ---
 
@@ -18,7 +19,7 @@ mathjax: true
 > * 名称与实体位置无关
 > * 用不同的字符来描述实体
 
-
+--- ---
 
 ## 名称、标识符和地址
 
