@@ -1,1 +1,26 @@
-theme: jekyll-theme-minimal
+# Site settings
+name: Liang Reading Note
+email: 1005252998@qq.com
+author: Liao Liang
+url: https://liao-liang.github.io
+resume_site: https://liao-liang.github.io
+github: https://github.com/Liao-Liang
+baseurl: ""
+description: Liao Liang Blog, write some reading note.
+meta_description: 个人博客;
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: Liao-Liang
+
+# Build settings
+markdown: kramdown
+
+#baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
