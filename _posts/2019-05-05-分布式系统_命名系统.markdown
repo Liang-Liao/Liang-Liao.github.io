@@ -1,14 +1,17 @@
 ---
-layout:     post
-title:      "分布式系统——命名系统"
-subtitle:   ""
-date:       2019-05-05
-author:     "廖亮"
-header-img: "img/post-bg-software.jpg"
-tags:
-    - 分布式系统
-    - 命名系统
+layout: post
+title:  "分布式系统——命名系统"
+date:   2019-05-05
+categories: 分布式系统
+tags: 分布式系统 命名系统
+excerpt: 关于分布式系统自动命名部分内容。
+mathjax: true
 ---
+
+* content
+{:toc}
+
+## 介绍
 
 > 名称用来共享资源、唯一标识实体、指向位置等
 > 命名的一个重要作用：把名称解析为它所指向的实体
@@ -17,9 +20,6 @@ tags:
 > 用户友好的名称的组织和实现
 > 名称与实体位置无关
 > 用不同的字符来描述实体
-
-
-
 
 ## 名称、标识符和地址
 
