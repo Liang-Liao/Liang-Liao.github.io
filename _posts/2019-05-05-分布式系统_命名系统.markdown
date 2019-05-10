@@ -4,7 +4,6 @@ title:  "分布式系统——命名系统"
 date:   2019-05-05
 categories: 分布式系统
 tags: 分布式系统 命名系统
-excerpt: 关于分布式系统自动命名部分内容。
 mathjax: true
 ---
 
