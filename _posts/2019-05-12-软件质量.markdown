@@ -67,8 +67,6 @@ $$
 
 ![McCall的软件质量因素](https://liao-liang.github.io/media/imgs/2019-05-12-软件质量/McCall的软件质量因素.jpg)
 
-![McCall的软件质量因素](/media/imgs/2019-05-12-软件质量/McCall的软件质量因素.jpg)
-
 ### ISO 9126质量因素
 
 6个关键质量属性：
