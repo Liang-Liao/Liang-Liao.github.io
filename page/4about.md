@@ -15,7 +15,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[Liao-Liang](https://github.com/Liao-Liang)
+* GitHub：[Liang-Liao](https://github.com/Liang-Liao)
 * email：1005252998@qq.com
 
 ## Comments
